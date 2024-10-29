@@ -94,38 +94,6 @@ Create a `.env` file with the following variables:
 - `MONGODB_URI`: MongoDB connection string
 - `JWT_SECRET`: Secret key for JWT token generation
 
-## 💡 Usage Examples
-
-### Admin Login
-```javascript
-fetch('http://localhost:3000/admin/login', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  body: JSON.stringify({
-    username: 'admin@example.com',
-    password: 'password123'
-  })
-});
-```
-
-### Create Course (Admin)
-```javascript
-fetch('http://localhost:3000/admin/courses', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-    'Authorization': 'Bearer YOUR_JWT_TOKEN'
-  },
-  body: JSON.stringify({
-    title: 'JavaScript Fundamentals',
-    description: 'Learn the basics of JavaScript',
-    price: 29.99,
-    imageLink: 'https://example.com/course-image.jpg',
-  })
-});
-```
 
 ## 🤝 Contributing
 
@@ -135,9 +103,6 @@ fetch('http://localhost:3000/admin/courses', {
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
