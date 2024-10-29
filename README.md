@@ -16,8 +16,8 @@ This project is a Node.js application for role-based authentication, featuring s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-project.git
-   cd your-project
+   git clone https://github.com/HARSH825/Course-Selling-WebApp-Backend
+   cd Course-Selling-WebApp-Backend
    ```
 
 2. Install dependencies:
