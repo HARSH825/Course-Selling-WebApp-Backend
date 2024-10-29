@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use("/admin", adminRouter)//any req coming to /admin/____ , will be directed to the imported "adminRouter'
 app.use("/user", userRouter)
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
