@@ -1,0 +1,36 @@
+{
+  "name": "Course Selling Application",
+  "version": "1.0.0",
+  "description": "A Node.js project for role-based authentication with Express, JWT, and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "build": "node build-script.js" 
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",       
+    "supertest": "^6.3.0",     
+    "nodemon": "^3.0.1"        
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/your-project.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jwt",
+    "authentication",
+    "mongoose",
+    "mongodb"
+  ]
+}

@@ -1,0 +1,28 @@
+# Node dependencies
+node_modules/
+
+# Environment variable files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Lock files
+package-lock.json
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+
+# IDE-specific folders
+.vscode/
+
+# Test coverage output
+coverage/
+
+# Build output directories
+build/
+dist/
