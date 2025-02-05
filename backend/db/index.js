@@ -1,5 +1,7 @@
 require('dotenv').config();
+const { configDotenv } = require('dotenv');
 const mongoose = require('mongoose');
+// configDotenv();
 mongoose.connect(process.env.MONGODB_URI);
 
 const AdminSchema = new mongoose.Schema({

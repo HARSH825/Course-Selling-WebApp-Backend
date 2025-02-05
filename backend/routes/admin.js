@@ -88,7 +88,7 @@ router.post('/courses', adminMiddleware,async (req, res) => {
 
 });
 
-router.get('/courses', adminMiddleware, async(req, res) => {
+router.get('/courses', async(req, res) => {
     // Implement fetching all courses logic
     //adminMiddleware checks if the admin is valid
     const courseData = await Course.find({});  //return the whole course table

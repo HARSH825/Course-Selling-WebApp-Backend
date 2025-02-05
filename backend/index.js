@@ -5,6 +5,8 @@ const adminRouter = require("./routes/admin")
 const userRouter = require("./routes/user");
 const dotenv = require('dotenv')
 dotenv.config(); //intitalise env variables
+const cors = require("cors");
+app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 
 
 // Middleware for parsing request bodies
